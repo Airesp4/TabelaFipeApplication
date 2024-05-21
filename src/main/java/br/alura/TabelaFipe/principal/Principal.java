@@ -20,7 +20,7 @@ public class Principal {
 
     private final String ENDERECO = "https://parallelum.com.br/fipe/api/v1";
 
-    public void iniciaColsulta(){
+    public void iniciaConsulta(){
         System.out.println("**********OPÇÕES**********");
         System.out.println("Carro\nMoto\nCaminhão");
         System.out.println("\nDigite uma das opções para consultar valores: ");
