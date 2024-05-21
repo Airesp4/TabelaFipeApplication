@@ -36,7 +36,7 @@ public class Principal {
             endereco = ENDERECO + "/caminhoes/marcas";
         }
         json = consulta.consultarDados(endereco);
-        System.out.println(json);
+        
         var marcas = buscador.obterLista(json, Modelo.class);
         marcas.stream()
                 .sorted(Comparator.comparing(Modelo::codigo))
